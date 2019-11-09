@@ -1,0 +1,20 @@
+<div id="bg">
+<div style="margin-top:30px;">
+  <h1 style="text-align:center;color:#a3e2b7;">STAFF MANAGEMENT SYSTEM</h1>
+</div>
+<form id="register-form" (ngSubmit)="login()" method="post" role="form" style="margin-top:220px;margin-left:700px;">
+  <div class="form-group">
+    <input type="email" name="email" id="email" tabindex="1" [(ngModel)]="email" class="form-control" placeholder="Email Address" value="">
+  </div><br/>
+  <div class="form-group">
+    <input type="password"  name="password1" id="password1" tabindex="2" [(ngModel)]="password" class="form-control" placeholder="Password">
+  </div><br/>
+  <div class="form-group">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <input type="submit" name="register-submit" id="register-submit" tabindex="4" class="form-control btn btn-register" value="Admin Login" style="width:200px;">
+      </div>
+    </div>
+  </div>
+</form>
+</div>
